@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="docintel">
+  <member>
+    <name>张三</name>
+    <role>研发</role>
+    <level>P7</level>
+  </member>
+  <member>
+    <name>李四</name>
+    <role>产品</role>
+    <level>P6</level>
+  </member>
+</project>

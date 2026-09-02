@@ -1,0 +1,6 @@
+apiVersion: v2
+name: docintel
+description: docintel 智能文档解析与结构化抽取平台
+type: application
+version: 1.0.0
+appVersion: "1.0.0"

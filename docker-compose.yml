@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  docintel:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DOCINTEL_PROVIDER=${DOCINTEL_PROVIDER:-mock}
+      - DOCINTEL_PROVIDERS__OPENAI__API_KEY=${OPENAI_API_KEY:-}
+      - DOCINTEL_PROVIDERS__DEEPSEEK__API_KEY=${DEEPSEEK_API_KEY:-}
+    volumes:
+      - ./data:/app/.docintel
+    restart: unless-stopped

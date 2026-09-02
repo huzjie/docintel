@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: docintel-config
+  namespace: docintel
+data:
+  DOCINTEL_PROVIDER: "mock"
+  DOCINTEL_SERVER__HOST: "0.0.0.0"
+  DOCINTEL_SERVER__PORT: "8000"

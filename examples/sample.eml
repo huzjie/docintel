@@ -1,0 +1,8 @@
+From: sender@example.com
+To: receiver@example.com
+Subject: 项目周报
+Date: Fri, 28 Aug 2026 10:00:00 +0800
+Content-Type: text/plain; charset="utf-8"
+
+本周完成智能文档解析平台的解析器模块开发。
+下周计划进行 LLM 结构化抽取联调。

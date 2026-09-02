@@ -1,0 +1,10 @@
+# 核心运行零第三方依赖（纯标准库）
+# 可选增强：
+#   fastapi uvicorn python-multipart   -> HTTP 控制面（FastAPI 模式）
+#   pypdf                             -> PDF 完整解析
+#   pytesseract pillow                -> 真实 OCR
+#   pypandoc                          -> .doc/.ppt 老格式转换
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+pypdf>=4.0.0

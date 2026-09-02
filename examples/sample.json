@@ -1,0 +1,6 @@
+{
+  "title": "项目信息",
+  "name": "docintel",
+  "version": "1.0.0",
+  "tags": ["文档解析", "RAG", "LLM"]
+}
