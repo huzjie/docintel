@@ -4,7 +4,7 @@
 #   pypdf                             -> PDF 完整解析
 #   pytesseract pillow                -> 真实 OCR
 #   pypandoc                          -> .doc/.ppt 老格式转换
-fastapi>=0.100.0
+fastapi>=0.141.1
 uvicorn[standard]>=0.22.0
 python-multipart>=0.0.6
 pypdf>=4.0.0
